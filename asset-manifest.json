@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/idontwannafailmyexam/Who-am-i-/static/css/main.86cf6f49.css",
+    "main.js": "/idontwannafailmyexam/Who-am-i-/static/js/main.1381a69d.js",
+    "static/js/787.373449dd.chunk.js": "/idontwannafailmyexam/Who-am-i-/static/js/787.373449dd.chunk.js",
+    "static/media/Screen.png": "/idontwannafailmyexam/Who-am-i-/static/media/Screen.176637637f50588053c5.png",
+    "static/media/CV_yazid.pdf": "/idontwannafailmyexam/Who-am-i-/static/media/CV_yazid.d030a57a0370b4a09ff5.pdf",
+    "static/media/PhpLogo.png": "/idontwannafailmyexam/Who-am-i-/static/media/PhpLogo.a86218c1497d7ce29f23.png",
+    "static/media/ReactLogo.png": "/idontwannafailmyexam/Who-am-i-/static/media/ReactLogo.6aff082ce059bec51dcb.png",
+    "static/media/Figmalogo.png": "/idontwannafailmyexam/Who-am-i-/static/media/Figmalogo.cddc18bc11a7334fd962.png",
+    "static/media/PythonLogo.png": "/idontwannafailmyexam/Who-am-i-/static/media/PythonLogo.1cfe33b9e058a2440e0a.png",
+    "static/media/CLogo.png": "/idontwannafailmyexam/Who-am-i-/static/media/CLogo.b132303e0b8c9e07fe32.png",
+    "index.html": "/idontwannafailmyexam/Who-am-i-/index.html",
+    "main.86cf6f49.css.map": "/idontwannafailmyexam/Who-am-i-/static/css/main.86cf6f49.css.map",
+    "main.1381a69d.js.map": "/idontwannafailmyexam/Who-am-i-/static/js/main.1381a69d.js.map",
+    "787.373449dd.chunk.js.map": "/idontwannafailmyexam/Who-am-i-/static/js/787.373449dd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86cf6f49.css",
+    "static/js/main.1381a69d.js"
+  ]
+}

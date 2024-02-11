@@ -1,0 +1,29 @@
+.section-container{
+    width: 320px;
+    height: 70px;
+    background-color: var(--color-secondary);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+}
+.section-title{
+    font-family: var(--font);
+    color: white;
+    font-size: 45px;
+    font-weight:600;
+}
+@media screen and (max-width:600px) {
+    .section-container{
+        width: 190px;
+        height: 40px;
+    }
+    .section-title{
+        font-family: var(--font);
+        color: white;
+        font-size: 22px;
+        font-weight:600;
+    }
+    
+}

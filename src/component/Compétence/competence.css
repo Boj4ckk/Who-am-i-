@@ -1,0 +1,49 @@
+
+.competence-container{
+    margin-top: 40px;
+    padding: 30px;
+    width: 90%;
+}
+.competence-content{
+    margin-left:100px;
+    margin-bottom: 30px;
+    padding: 40px;
+    width: 90%;
+    height: 500px;
+    
+    display: flex;
+    flex-direction: column;
+    
+  
+    
+}
+.competence-row{
+    
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:600px) {
+    .competence-content{
+       margin-left: 10px;
+        margin-bottom: 30px;
+        padding: 1px;
+        width: 70%;
+        height: 250px;
+        
+        display: flex;
+        flex-direction: column;
+        
+      
+        
+    }
+    .competence-row{
+        
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+   
+    
+}

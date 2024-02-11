@@ -1,0 +1,54 @@
+.header-container{
+    background-color: var(--color-primary);
+    width: 100%;
+    height: 20%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  
+  .header-right-part{
+    width: 60%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+  }
+  .header-section-title{
+    font-family: 'Outfit', sans-serif;
+    font-size: 17px;
+    color: white;
+  }
+  .active{
+    transform:  scale(1.5);
+    font-family: var(--font);
+    color: white;
+  }
+
+  @media screen and (max-width:600px) {
+    .header-section-title{
+      font-family: 'Outfit', sans-serif;
+      font-size: 0px;
+      color: white;
+    }
+    .active{
+      font-family: 'Outfit', sans-serif;
+      font-size: 0px;
+      color: white;
+      transform: scale(1.2);
+    }
+    .header-container{
+      height: 0px;
+      
+    }
+  
+    
+  }
+
+  
+ 
+  

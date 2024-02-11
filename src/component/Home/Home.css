@@ -1,0 +1,186 @@
+.home-container{
+    margin-bottom: 30px;
+    padding: 30px;
+    width: 95%;
+    height: 45%;
+    display: flex;
+    
+    
+   
+  }
+  .home-left{
+    margin-top: 150px;
+    width: 35%;
+    height: 100%;
+    padding-left: 90px;
+    margin-left: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    
+  }
+  .home-text-1, .home-text-2, .home-text-3 {
+    margin: 0; /* Suppression des marges par défaut */
+    padding: 0; /* Réduction du padding si nécessaire */
+    
+    color: white;
+    font-family: var(--font);
+  }
+  
+  
+  
+  @keyframes fadeIn{
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+  
+  }
+  .home-text-1 {
+    animation: fadeIn 1s ease-in-out forwards;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 10px;
+  }
+  .home-text-2 {
+    animation: fadeIn 2s ease-in-out forwards;
+    
+    font-size: 50px;
+    font-weight: 600;
+  }
+  
+  .home-text-3 {
+    animation: fadeIn 3s ease-in-out forwards;
+    
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 200;
+  }
+  .home-right{
+    margin-bottom: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05); /* Agrandir légèrement l'image, 5% plus grand que la taille normale */
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  .screen{
+    animation: pulse 2s infinite ease-in-out;
+    width: 700px;
+    height: 500px;
+  }
+
+
+.button-container{
+    animation: fadeIn 1s ease-in-out forwards;
+    margin-top: 20px;
+    width: 180px;
+    height: 60px;
+    background-color:var(--color-secondary);
+    border-radius: 20px;
+    color: white;
+    
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+    transition: opacity  0.3 ease; /* Opacité réduite lors de l'activation (clic) */;
+  }
+ 
+.button-content{
+    font-family: var(--font);
+}
+@media screen and (max-width:600px) {
+  .home-container{
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 55%;
+    height: 45%;
+    display: flex;
+    
+    
+   
+  }
+  .home-left{
+    margin-top: 135px;
+    width: 40%;
+    height: 100%;
+    padding-left: 20px;
+    margin-left: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    
+  }
+  .home-right{
+   
+    margin-top: 100px;
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+  }
+  .home-text-1 {
+    animation: fadeIn 1s ease-in-out forwards;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 10px;
+  }
+  .home-text-2 {
+    animation: fadeIn 2s ease-in-out forwards;
+    margin-top: 5px;
+    font-size: 10px;
+    font-weight: 600;
+  }
+  
+  .home-text-3 {
+    animation: fadeIn 3s ease-in-out forwards;
+    margin-left: 0px;
+    margin-top: 3px;
+    padding-right: 10px;
+    font-size: 8px;
+    font-weight: 200;
+  }
+  .screen{
+    padding-right: 30px;
+    animation: pulse 2s infinite ease-in-out;
+    width: 280px;
+    height: 190px;
+  }
+  .button-container{
+    animation: fadeIn 1s ease-in-out forwards;
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    background-color:var(--color-secondary);
+    border-radius: 20px;
+    color: white;
+    
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+    transition: opacity  0.3 ease; /* Opacité réduite lors de l'activation (clic) */;
+  }
+  
+
+  
+}
+  
+  
+  
+  
+  
+  

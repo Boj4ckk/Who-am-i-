@@ -1,0 +1,80 @@
+.jauge-container {
+  margin: 10px;
+}
+
+.jauge-label {
+  margin-bottom: 5px;
+  font-family: var(--font);
+  font-weight: 500;
+  color: white;
+  font-size: 40px;
+}
+
+.jauge-bar {
+  width: 400px;
+  padding: 5px;
+  border-radius: 15px;
+  height: 45px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+.jauge-rectangle {
+  flex: 1;
+  margin: 2px;
+  height: 40px;
+  background-color: #eee;
+  transition: 1s ease-in-out , transform 0.9s ease;
+  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+.jauge-rectangle.filled {
+  background-color: #86CFD0;
+}
+.jauge-rectangle.first {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+  
+.jauge-rectangle.fin{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+@media screen and (max-width:600px) {
+  .jauge-label {
+    margin-bottom: 5px;
+    font-family: var(--font);
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+  }
+  .jauge-bar {
+    width: 150px;
+    padding: 5px;
+    border-radius: 15px;
+    height: 22px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  .jauge-rectangle {
+    flex: 1;
+    margin: 2px;
+    height: 20px;
+    background-color: #eee;
+    transition: 1s ease-in-out , transform 0.9s ease;
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.3);
+  }
+  .jauge-container {
+    margin: 5px;
+  }
+ 
+  
+}

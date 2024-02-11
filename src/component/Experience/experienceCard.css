@@ -1,0 +1,255 @@
+@keyframes fadeIn{
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+}
+
+@keyframes popEffect {
+    0% {
+      transform: scale(0.9);
+      opacity: 0;
+    }
+    50% {
+      transform: scale(1.5);
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+ 
+
+
+.experienceCard-container{
+    width: 100%;
+    height: 30%;
+    animation: fadeIn 1s ease-in-out forwards;
+
+    
+}
+
+.experienceCard-content{
+    padding-top: 70px;
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.3);
+   
+}
+.experienceCard-data-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.experienceCard-data-content.animate{
+    animation: popEffect 0.5s ease-out forwards;
+  }
+
+
+.experienceCard-data{
+    padding-left: 50px;
+    margin-top: 20px;
+    
+    width: 100%;
+    height: 170px;
+}
+.experienceCard-data-content{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: var(--color-secondary);
+    box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.3);
+   
+
+}
+
+.labels{
+    font-family: var(--font);
+    color: white;
+    font-size: 20px;
+    font-weight:600;
+    
+    
+}
+
+.data{
+    margin-top: 27px;
+    font-family: var(--font);
+    font-weight: 200;
+    color: white;
+    font-size: 18px;
+
+}
+.middle{
+    width: 280px;
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.3);
+    padding-right: 30px;
+}
+.middle.animate{
+    animation: popEffect 0.7s ease-out forwards;
+
+}
+.last{
+    width: 280px;
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.3);
+}
+.last.animate{
+    animation: popEffect 0.9s ease-out forwards;
+
+}
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 0px;
+    margin-top: 30px;
+    
+}
+.logo{
+    
+    width: 650px;
+    height: 400px;
+    pointer-events: none;
+    
+    
+}
+.experienceCard-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: var(--color-secondary);
+    font-family: var(--font);
+    font-weight: 600;
+    color: white;
+    font-size: 25px;
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.3);
+}
+.experienceCard-title.animate{
+    animation: popEffect 0.4s ease-out forwards;
+
+}
+.plus-button-container.animate{
+    animation: popEffect 1s ease-out forwards;
+
+}
+
+@media screen and (max-width:600px) {
+    .experienceCard-data-container{
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+        
+    }
+    
+    .experienceCard-container{
+        width: 80%;
+        height: 30%;
+        margin-right: 20px;
+        animation: fadeIn 1s ease-in-out forwards;
+    
+        
+    }
+    .experienceCard-content{
+        padding-top: 50px;
+        width: 200px;
+        height: 180px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.3);
+       
+    }
+    .logo-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 0px;
+        margin-top: 30px;
+        
+    }
+    .logo{
+    
+        width: 350px;
+        height: 200px;
+        pointer-events: none;
+        
+        
+    }
+    .experienceCard-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 180px;
+        height: 30px;
+        border-radius: 50px;
+        background-color: var(--color-secondary);
+        font-family: var(--font);
+        font-weight: 600;
+        color: white;
+        font-size: 12px;
+        box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.3);
+    }
+    .experienceCard-data-content{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 130px;
+        height: 20px;
+        border-radius: 50px;
+        background-color: var(--color-secondary);
+        box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.3);
+       
+    
+    }
+    
+.experienceCard-data{
+    padding-left: 50px;
+    margin-top: 10px;
+    
+    width: 100%;
+    height: 100px;
+}
+    .labels{
+        font-family: var(--font);
+        color: white;
+        font-size: 10px;
+        font-weight:600;
+        
+        
+    }
+    
+    .data{
+        margin-top: 15px;
+        font-family: var(--font);
+        font-weight: 200;
+        color: white;
+        font-size: 9px;
+
+    
+    }
+    .last{
+        width: 140px;
+        box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.3);
+    }
+    
+}

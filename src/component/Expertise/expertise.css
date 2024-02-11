@@ -1,0 +1,105 @@
+.expertise-container{
+    padding: 10px;
+    width: 100%;
+    height: 40%;
+  
+}
+.expertise-content-row{
+    margin-top: 50px;
+    width: 85%;
+    height: 5%;
+    padding: 30px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(140, 140, 218, 0.2);
+
+}
+.expertise-logo-container{
+    
+    margin-top: 30px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    transform: translateY(-50px);
+    opacity: 0;
+    transition: opacity 1s ease, transform 0.9s ease;
+ 
+    
+}
+.expertise-logo-container.animate{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.expertise-logo{
+    
+    opacity: 1;
+    width: 90px;
+    height: 90px;
+}
+.expertise-title{   
+    font-family: var(--font);
+    color: white;
+    margin-bottom: 10px;
+
+}
+.expertise-box{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    
+}
+.second{
+    margin-left: 250px;
+    width: 50%;
+}
+@media screen and (max-width:600px) {
+    .expertise-content-row{
+        margin-top: 50px;
+        width: 63%;
+        height: 60px;
+        padding: 30px;
+        margin-left: 40px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgba(140, 140, 218, 0.2);
+    
+    }
+    .second{
+        margin-left: 80px;
+        width: 50%;
+    }
+    .expertise-logo-container{
+    
+        margin-top: 30px;
+        width: 70px;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center;
+        transform: translateY(-50px);
+        opacity: 0;
+        transition: opacity 1s ease, transform 0.9s ease;
+     
+        
+    }
+    .expertise-logo{
+    
+        opacity: 1;
+        width: 50px;
+        height: 50px;
+    }
+    .expertise-title{   
+        font-size: 10px;
+        font-family: var(--font);
+        color: white;
+        margin-bottom: 10px;
+    }
+    
+}
